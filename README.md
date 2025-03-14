@@ -1,53 +1,53 @@
-📌 Customer Churn Prediction using Streamlit
-🚀 Overview
-This is a Customer Churn Prediction Web App built using Streamlit. The app allows users to input customer details and predicts whether a customer is likely to churn based on a pre-trained machine learning model.
+📌 Customer Churn Prediction using Streamlit<br>
+🚀 Overview<br>
+This is a Customer Churn Prediction Web App built using Streamlit. The app allows users to input customer details and predicts whether a customer is likely to churn based on a pre-trained machine learning model.<br>
 
-📂 Project Structure
+📂 Project Structure<br>
 📦 Customer-Churn-Prediction
 │-- app.py                # Streamlit Web App
 │-- model.pkl             # Trained ML Model
 │-- scaler.pkl            # Scaler for Input Data
 │-- requirements.txt      # Dependencies
 │-- README.md             # Project Documentation
+<br>
+📌 Features<br>
+✅ Simple and Interactive UI using Streamlit<br>
+✅ Takes Age, Gender, Tenure, and Monthly Recharge as inputs<br>
+✅ Predicts whether a customer will Churn (Yes/No)<br>
+✅ Uses Joblib for loading the pre-trained model<br>
 
-📌 Features
-✅ Simple and Interactive UI using Streamlit
-✅ Takes Age, Gender, Tenure, and Monthly Recharge as inputs
-✅ Predicts whether a customer will Churn (Yes/No)
-✅ Uses Joblib for loading the pre-trained model
+⚙️ How to Run the App<br>
+1️⃣ Install Dependencies<br>
+First, install the required Python packages using:<br>
+pip install -r requirements.txt<br>
 
-⚙️ How to Run the App
-1️⃣ Install Dependencies
-First, install the required Python packages using:
-pip install -r requirements.txt
+2️⃣ Run the Streamlit App<br>
+streamlit run app.py<br>
 
-2️⃣ Run the Streamlit App
-streamlit run app.py
+🛠 Model Details<br>
+Model Used: Pre-trained ML Model (model.pkl)<br>
+Scaler Used: StandardScaler (scaler.pkl)<br>
 
-🛠 Model Details
-Model Used: Pre-trained ML Model (model.pkl)
-Scaler Used: StandardScaler (scaler.pkl)
+Input Features:<br>
+Age (Numeric)<br>
+Gender (Male → 0, Female → 1)<br>
+Tenure (Duration of subscription)<br>
+Monthly Recharge (Monthly charge for services)<br>
 
-Input Features:
-Age (Numeric)
-Gender (Male → 0, Female → 1)
-Tenure (Duration of subscription)
-Monthly Recharge (Monthly charge for services)
+Prediction Output:<br>
+1 → Churn (Customer will leave)<br>
+0 → Not Churn (Customer will stay)<br>
 
-Prediction Output:
-1 → Churn (Customer will leave)
-0 → Not Churn (Customer will stay)
+🖥️ Web App Demo<br>
+🔹 Enter values → Click Predict → Get the prediction result<br>
+![App Screenshot](app_screenshot.png)<br>
 
-🖥️ Web App Demo
-🔹 Enter values → Click Predict → Get the prediction result
-![App Screenshot](app_screenshot.png)
+📜 Dependencies<br>
+The app requires the following Python libraries:<br>
+1.streamlit<br>
+2.joblib<br>
+3.numpy<br>
+4.Pandas<br>
 
-📜 Dependencies
-The app requires the following Python libraries:
-1.streamlit
-2.joblib
-3.numpy
-4.Pandas
-
-Install them using:
-pip install streamlit joblib numpy
+Install them using:<br>
+pip install streamlit joblib numpy<br>
